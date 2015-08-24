@@ -1,6 +1,5 @@
-#Definir a variavel como um numero inteiro 
 
-deposito = int(input("qual sera o valor do deposito? "))#dando erro porque nao fechei os parenteses
+deposito = int(input("qual sera o valor do deposito? "))
 
 if deposito >=150 : 
     print('Voce esta poupando bem!!')
@@ -11,7 +10,6 @@ else:
 
 
 Ache os erros
-
 
 deposito= int (input("qual sera o valor? ") 
 if deposito > 150 : 
