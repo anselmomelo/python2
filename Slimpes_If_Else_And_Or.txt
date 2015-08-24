@@ -1,0 +1,13 @@
+clube = input('Qual eh o seu time preferido?').upper()
+esporte = input('Qual eh o seu esporte favorito? ').upper()
+
+if clube == 'BARCELONA' and esporte == 'FUTEBOL' :
+
+    print('Viva Messi e Neymar!!!')
+
+elif clube == 'REAL MADRID' or clube == 'SEVILLA' or clube == 'ATLETICO MADRID' :
+
+    print('O campeao voltou!!!')
+
+else:
+    print('Vc nao entendde nada de futebol cai fora Hahaahaha!!!')     
