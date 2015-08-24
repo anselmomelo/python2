@@ -1,0 +1,19 @@
+clube = input('Qual eh o seu time? ').upper()
+esporte = input('Qual eh o seu esporte favorito? ').upper()
+
+#neste caso as duas respostas tem que ser verdadeiras para liberar o print 
+
+clubeCorreto  = False #se for falso nao imprima nada na tela
+if clube == 'PALMEIRAS' : #se clube for igual a PALMEIRAS
+    clubeCorreto = True #passa no teste 
+    
+
+esporteCorreto = False
+if esporte == 'FUTEBOL' :
+    esporteCorreto = True
+
+if clubeCorreto and esporteCorreto :#os dois comandos passando no teste libera a frase na tela 
+    print('o melhor time do Brasil vc deve ser muito inteligente!!!')
+
+else:
+    print('Vc nao entende nada de futebol \n se tivesse respondido Palmeiras ai sim')
