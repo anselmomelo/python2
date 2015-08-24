@@ -1,0 +1,16 @@
+import turtle #importei a biblioteca
+
+lados = 8 
+
+for steps in range (lados) : 
+    turtle.forward(100)
+    turtle.right(360/lados)
+
+for moresteps in range (lados) :
+    turtle.forward(90)
+    turtle.right(360/lados)
+        
+
+turtle.color('blue')
+turtle.forward(200)
+    
