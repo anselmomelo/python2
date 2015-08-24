@@ -1,0 +1,17 @@
+import datetime
+
+presente = datetime.date.today()
+ 
+print(presente.strftime
+       ('Compareca ao evento que sera realizado no dia, %d %b,%Y'))
+
+
+#trabalhar com data importe a biblioteca "datetime"
+#Utilizando a letra (Y) em maiscula o ano é imprimido com os 4 digitos
+#Ja utilizando o y minusculo somente os dois ultimos digitos
+#%d = dia
+#%b = mes
+#%Y = ano 
+
+
+
