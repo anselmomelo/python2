@@ -1,0 +1,12 @@
+
+message = 'argentina eh o melhor time do mundo'
+print (message.find('mundo'))
+print (message.count ('a'))
+print (message.capitalize ())
+print (message.replace('argentina' , 'Brasil'))
+
+#entendendo
+#FIND acha a palavra 
+#COUNT conta a quantidade de letras definida
+#CAPITALIZE transforma a primeira letra em maiuscula
+#REPLACE substitue a palavra 
