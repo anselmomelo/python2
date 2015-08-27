@@ -1,0 +1,82 @@
+#Operações Matematicas V1
+#Anselmo Melo - Aulas de Python 
+
+#São elas:
+
+#adição = +
+#subtração = -
+#multiplicação = * 
+#Divisão = /
+#Divisão Inteira // 
+#Resto da divisão %
+#Potencialização **
+
+
+#Adição "+"
+x = 10
+y = 5 
+soma = x + y
+print('resultado da soma',soma)
+#ou
+print('resultado da soma', x+y)
+
+#Subtração "-"
+sub = x - y
+print('o resultado desta subtracao', sub)
+
+#Multiplicação "*"
+mult = x * y
+print('o resultado da multiplicacao:', mult)
+
+#Divisão "/ , // , %"
+div = y / x #divisao 
+print('o resultado desta divisao:', div)
+div = x // y #divisão inteira
+print('o resultado desta divisao inteira:', div)
+div = y % x  #resto da divisao
+print('o resto da divisao:', div)
+
+#Potencialização "**"
+pot = 10**3
+print(pot)
+pot = 10**5
+print (pot)
+
+#Exemplos
+#o resulatdo do calculo abaixo é 3
+x = 10 + 5*3 / 15
+print(x)
+#notem que ao rodar o codigo o resultado mostrado é 11 e não 3 pq?
+#por que há uma regra uma ordem nas operações matematicas 
+#a ordem correta *,/,//,%,**, eles tem preferencia em relacao ao sinal de "+" e "-".
+#Se eu quisesse que "x" fosse realmente "3" teria que DEFINIR A ORDEM DOS CALCULOS
+#para que ele obedece e chegue no resultado que desejo imponho a regra '+',* e depos a //  
+#vamos refazer
+x = (10 + 5) * 3 // 15
+print(x)
+
+#Dicas
+
+#Abaixo demonstro que posso imprimir um codigo sem tantas variaveis 
+#nao recomendo em codigos muito grandes pode atrapalhar na hora de achar um bug
+
+x=2
+y=10 
+soma = x + y
+print('a soma de', x , 'mais', y ,'=', soma)  
+
+#sem a variavel soma
+
+x=2
+y=10 
+print('a soma de', x , 'mais', y ,'=', x+y)  
+
+print('Escreva um programa basico com no maximo duas linhas onde a saida eh 18')
+
+x = (4 * 4) // 2 + 10
+print ('4 x 4 depois dividi por 2 e somei 10 e deu:', x)  
+
+
+
+
+
