@@ -1,0 +1,36 @@
+#Criando um codigo para achar a media  
+#Versão 1 - School Media
+
+import datetime
+hoje = datetime.date.today()
+print(hoje.strftime('data %d %b %y'))
+
+print('Bem vindo ao sistema School!!! ')
+
+escola2 = input ('Sua escola eh particular ou publica? ').capitalize()
+
+print('Okay entendemos que vc faz parte de um escola', escola2)
+
+unidade = input ('Qual o nome de sua escola? ').upper()
+
+aluno = input ('Seu nome: ').capitalize()
+
+print(aluno,'Voce estuda na escola',unidade)
+
+print('Vamos somar suas notas e obter sua media e saber se foi aprovado')
+
+num1= int (input('Digite a primeira nota:'))
+num2= int (input('Digite a segunda nota:'))
+num3= int (input('Digite a terceira nota:'))
+num4= int (input('Digite a quarta nota:'))
+num5= int (input('Digite a quinta nota:'))
+num6= int (input('Digite a sexta nota:'))
+
+total = (num1+num2+num3+num4)/4 
+
+print('Sua media final foi de ', total)
+
+if total > 7:
+    print('Voce passou de ano!!!')
+else:
+    print ('Reprovado,estude mais',aluno)
