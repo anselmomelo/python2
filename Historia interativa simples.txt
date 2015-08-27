@@ -1,0 +1,23 @@
+#Aula de Python Anselmo Melo
+#Criando uma pequena historia interativa para crian?as
+
+#Reino Encantado V 1 
+
+x = input ("Qual eh o seu nome ? ").capitalize()
+y = int (input('Sua idade ? '))
+b = input ('nome da mamae ? ').capitalize()
+c = input('Nome do papai ? ').capitalize()
+d = input ('Como deseja chamar seu reino? ').upper()
+print('O reino de',d)
+
+print('''Era uma vez uma linda menina chamada''',x,
+'''\ntinha apenas''',y,'''de idade.'''
+'''Morava num reino muito lindo chamado:''',d,'''\n'''
+'''Este reino era cercado de seres magicos.\n'''
+'''Seus pais eram''',b,'e',c,'''ou como queiram chamar o rei e a rainha\n'''
+'''O ceu era azul ,as pessoas eram felizes e educadas,os passaros cantavam\n'''
+'''cancoes lindas o reino cheirava a festa de aniversario misturado\n'''
+'''com brigadeiro ,bolo hummmmm era contagiante.'''
+'''um belo dia''',x,'''\n decidiu que iria realizar uma festa, '''
+'''convocou todo reino foi ai que...''')
+
