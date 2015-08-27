@@ -1,0 +1,22 @@
+#Calculo de salario V1
+
+nT = input ('Ola seja bem vindo qual eh o seu nome? ').capitalize()
+print ('Oi',nT,'Vou te ajudar a calcular seu salario')
+qH = int (input('Quanto vc ganha por hora R$ '))
+hT = int (input('Quantas horas vc trabalha por dia? '))
+mesD = int (input('Quantos dias tem o mes atual? '))
+salario = qH * hT * mesD 
+print('Salario bruto R$', salario)
+
+ir = (11/100.0 * salario)
+inss = (8/100.0 * salario)
+sindicato = (5/100.0 * salario)
+
+vt = ir + inss + sindicato
+salariob = salario - vt
+print ('Valor dos impostos')
+print ('ir: ', ir)
+print ('inss', inss)
+print ('sindicato', sindicato)
+
+print ('Seu salario com desconto R$',salariob)
