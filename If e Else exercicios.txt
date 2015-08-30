@@ -1,0 +1,38 @@
+#sinais de comparacao
+#menor que <
+#maior que >
+#maior que ou igual >=
+#menor que ou igual =<
+#diferente ou igual !=
+
+#Exercicio um Operacões de comparação
+ 
+idade = int (input('digite sua idade: '))
+
+if idade >= 18 :
+    print('Autorizado mas beba com moderacao' )
+else:
+    print('Vc so pode beber suco e agua!!!')
+
+
+#Exercicio 2
+num1 = int(input('Digite o primeiro numero: '))
+num2 = int(input('Digite o segundo numero:  '))
+
+if num1 > num2 :
+    print(num1,'Eh maior que:',num2)
+
+else:
+    print(num2,'Eh maior que:',num1)
+
+#Exercicio 3
+print('Bem vindo ao tenta a sorte')
+sorte1 = int(input('Dig o primeiro numero: '))
+sorte2 = int (input('Dig o segundo numero: '))
+
+if sorte1 == 19:
+    print(sorte1,'Uauuuuu,parabens vc eh o ganhador!!!')
+    print('Retire seu premio no guiche 1')
+
+else:
+    print('Que pena', sorte2,'nao eh o numero da sorte')

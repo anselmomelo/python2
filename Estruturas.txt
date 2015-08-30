@@ -1,0 +1,49 @@
+idade = int (input('Digite a sua idade: '))
+
+if idade >= 18 :
+    print('Voce pode beber!!!')
+    if idade >= 21:
+        print('A partir de',idade, 'VIP!!!')
+
+else:
+    print('voce so pode beber agua,suco e refrigerante ')
+
+idade = int (input('Digite a sua idade: '))
+resp = idade >=18
+resp2 = idade >=21
+
+if resp == True :
+    print('Voce pode beber!!!')
+
+    if resp2 == True:
+        print('A partir de',idade, 'VIP!!!')
+
+if resp == False :
+    print('voce so pode beber agua,suco e refrigerante ')
+
+#mais um mode de fazer sem a necessidade de true 
+
+idade = int (input('Digite a sua idade: '))
+resp = idade >=18
+resp2 = idade >=21
+
+if resp :
+    print('Voce pode beber!!!')
+    if resp2 :
+        print('A partir de',idade, 'VIP!!!')
+
+if resp != True :
+    print('voce so pode beber agua,suco e refrigerante ')
+
+ 
+
+idade = int (input('Digite a sua idade: '))
+
+if idade >= 18 :
+    print('Voce pode beber!!!')
+    if idade >= 21:
+        print('E EH UM VIP!!!')
+
+if idade < 18 :
+    print('voce so pode beber agua,suco e refrigerante ')
+ 

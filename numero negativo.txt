@@ -1,0 +1,8 @@
+#Faca um programa que mostre se um
+#numero e negativo ou positivo
+
+num = int(input('Digite um numero: '))
+if num > 0 :
+    print(num,'Este numero e positivo')  
+else:
+    print('Numero negativo')
