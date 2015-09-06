@@ -1,0 +1,43 @@
+print ('SEJA BEM VINDO AO BANCO EXPRESS')
+nome =input('Seu nome : ').capitalize()
+print (nome)
+
+valorSaque= int (input('Digite o valor do saque R$ '))
+
+if valorSaque <= 10 or valorSaque <= 500:#limite de saque nesta operação
+    cem = valorSaque // 100 #divide por cem
+    valorSaque = valorSaque % 100 #resto da divisao
+
+    cinquenta = valorSaque // 50
+    valorSaque = valorSaque % 50
+
+    vinte = valorSaque // 20
+    valorSaque = valorSaque % 20
+
+    cinco = valorSaque // 5
+    valorSaque = valorSaque % 5
+    
+    dez = valorSaque // 10
+    valorSaque = valorSaque % 10
+
+    dois = valorSaque // 2
+    valorSaque = valorSaque % 2
+
+    um = valorSaque // 1
+        
+    if cem > 0 :#maior que zero
+        print (cem,'notas de R$ 100')
+    if cinquenta > 0 :
+        print(cinquenta,'notas de R$ 50')
+    if  vinte > 0 :
+        print (vinte,'notas de R$ 20')
+    if dez > 0 :
+        print(dez,'notas de R$ 10')
+    if cinco > 0 :
+        print(cinco,'notas de R$ 5')        
+    if dois > 0 :
+        print(dois,'notas de R$ 2')
+    if um > 0 :
+        print(um,'notas de R$ 1')
+else:
+    print('Limite para saque neste caixa eh R$ 500,00')

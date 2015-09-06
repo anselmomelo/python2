@@ -1,0 +1,16 @@
+#Descobrindo o resto de uma divisao
+
+print('Resto da divisao')
+
+dividendo =int(input('Digite o dividendo: '))
+divisor=int(input('Digite o divisor: '))
+
+quociente= dividendo // divisor
+multi = quociente * divisor
+sub = dividendo - multi
+print('Dividendo escolhido:',dividendo,'e o divisor:',divisor)
+print('o valor desta divisao eh:',quociente)
+print('multiplicamos o quociente:',quociente,'pelo divisor: ',divisor)
+print('resultado:',multi)
+print ('subtraimos este valor:',multi,'do dividendo:',dividendo)
+print ('o resto desta divisao:',sub)

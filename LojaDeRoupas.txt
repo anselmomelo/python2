@@ -1,0 +1,13 @@
+print('Seja bem vindo ao sistema de desconto Versace Collection')
+nome = (input('Nome do gerente: ')).capitalize()
+print(nome)
+if nome == "Adriano"  :
+    peca = int(input('Qual o valor da peca R$? ')) 
+    desc1 = int(input('Quantos porcento sera dado: '))
+    calc = peca * desc1
+    desc2 = calc/100
+    total = peca - desc2
+    print('Com',desc1,'%,seu desconto sera de R$',desc2)
+    print('Sua peca saira por R$',total )
+else:
+    print('Voce nao tem autorizacao para utilizar o sistema')

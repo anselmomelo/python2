@@ -1,0 +1,16 @@
+#Versao 1 Balada 
+print('Bem vindo a matine So alegria')
+
+nome = input ('Qual eh o seu nome? ').capitalize()
+numeros = int(input('Digite sua idade para liberar o acesso: '))
+
+print (nome)
+
+if numeros >= 10 :#maior ou igual a 10/Atenção para o encadeamento de if elif e else se houver
+    if numeros <= 16 :#menor que 16
+        print ('Voce pode entrar nesta matine')#imprime 
+    else:#caso seja acima de 16
+        print('Acima de 16 anos entrada proibida')
+#este else abaixo so serve se o usuario for menor que 10 anos 
+else:
+    print('Menor de 10 anos isto nao e pra vc ')

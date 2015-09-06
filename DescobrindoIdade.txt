@@ -1,0 +1,21 @@
+print('Descubrindo a idade')
+
+nome=input('Qual eh o seu nome? ').capitalize()
+
+
+aN = int(input('Digite o ano em que nasceu xxxx : '))
+aT = int(input('Digite o ano atual xxxx : '))
+
+idade = aT - aN
+
+print (nome,'voce tem', idade, 'anos')
+if idade >= 10 :
+    if idade < 15 :
+        print(idade,'anos vc eh um bebezao')
+    if idade >=15 and idade <=18:
+        print ('ta virando gente')
+    elif idade >= 25 :
+        print('fala velho')
+    
+else:
+    print('menor de 10 nao conta')

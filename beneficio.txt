@@ -1,0 +1,14 @@
+print('Saiba se vc esta apto a receber este beneficio')
+
+nome = input ('Qual seu nome: ')
+idade = int (input('Digite sua idade: '))
+
+if idade >= 18 :
+    if idade < 70 :
+        print ('Voce pode receber o beneficio')
+    else:
+        print('Acima da faixa etaria nao pode receber o beneficio')
+else:
+    print(idade,'Pessoas abaixo dos 18 anos idade nao possuem este beneficio ')
+
+
